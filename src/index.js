@@ -78,15 +78,15 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import Header from './header.js';
 import MainContent from './Main.js';
 import Footer from './footer';
+import "./index.css"
 
 
 function Page() {
   return (
-    <div>
+    <div className='body-content'>
       <Header />
       <MainContent />
       <Footer />

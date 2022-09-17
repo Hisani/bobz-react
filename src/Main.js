@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function MainContent() {
   return (
-    <div>
+    <div className="body">
       
-      <h2>reasons I'm excited to learn react</h2>
+      <h2>Reasons I'm excited to learn react</h2>
         <ul>
             <li>was first released in 2013</li>
             <li>was originally created by jordan walke</li>
